@@ -22,8 +22,6 @@ while True:
         break       # break out of loop
 
 
-
-
     def add_num(first_number,second_number,operation):
 
         try :
@@ -89,11 +87,15 @@ while True:
 
 
 
-# # question 3
+# question 3
 while True:
     age = input("Enter your age (or type exit to quit): ")
     if age == 'exit':
         print("Goodbye!")
+        break
+
+    if age != age.isdigit():
+        print("Invalid input. Please enter a number")
         break
     
     try:

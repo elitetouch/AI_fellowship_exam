@@ -55,6 +55,7 @@ while True:
             if operation == '4':
                 if int(first_number) != 0:
                     sum = float(first_number) / float(second_number) 
+                    print(f'Result: {sum}')
                     # return sum
                     
                 else:

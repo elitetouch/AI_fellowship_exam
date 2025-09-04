@@ -54,7 +54,7 @@ while True:
         try:
             if operation == '4':
                 if int(first_number) != 0:
-                    sum = int(first_number) / int(second_number) 
+                    sum = float(first_number) / float(second_number) 
                     # return sum
                     
                 else:
